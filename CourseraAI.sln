@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NxNPuzzleAI", "NxNPuzzleAI\NxNPuzzleAI.pyproj", "{E2BA65A9-B294-4DC2-9B10-A7D64345599D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "2048Puzzle", "2048Puzzle\2048Puzzle.pyproj", "{7BE05C72-6E43-4AE8-80B7-F3D8993C966B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2BA65A9-B294-4DC2-9B10-A7D64345599D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BA65A9-B294-4DC2-9B10-A7D64345599D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE05C72-6E43-4AE8-80B7-F3D8993C966B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE05C72-6E43-4AE8-80B7-F3D8993C966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
