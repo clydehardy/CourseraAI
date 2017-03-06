@@ -15,11 +15,12 @@ class PlayerAI(BaseAI):
     def CalcScore(self,grid):
         gmap = deepcopy(grid.map)
         #numzeros = 0
-        numzeros = sum([len(l) for l in gmap])-sum([len(list(filter((0).__ne__,l))) for l in gmap])
+        rownzeros = [len(list(filter((0).__ne__,l))) for l in gmap]
+        numzeros = 16-sum(rownzeros)
 
         f=0.9
         tot = 0 
-        if len(list(filter((0).__ne__,gmap[0]))) == 4:
+        if rownzeros[0] == 4:
             tot += 600
 
         slist = gmap[0]+gmap[1]+gmap[2]+gmap[3]
@@ -33,10 +34,32 @@ class PlayerAI(BaseAI):
         if gmap[0][0] != 0 and gmap[1][0] != 0 and gmap[2][0] != 0 and gmap[3][0] != 0:
             tot += 10
 
-        if numzeros < 8 and max(slist) >= 512:
+        if numzeros < 8 and slist[0] >= 512:
             numzeros = numzeros*100
         else:
             numzeros = numzeros*10 
+
+        if rownzeros[0] == 4 and rownzeros[3] == 0:
+            if rownzeros[1] == 3 and rownzeros[2] == 0:
+                zidx = gmap[1].index(0)
+                chklst = [[0,zidx]]
+                if zidx != 0:
+                    chklst.append([1,zidx-1])
+                if zidx != 3:
+                    chklst.append([1,zidx+1])
+                chk = [gmap[l[0]][l[1]] for l in chklst]
+                if not all(x in chk for x in [2,4]):
+                    tot -= 6000
+            if rownzeros[1] == 4 and rownzeros[2] == 3:
+                zidx = gmap[2].index(0)
+                chklst = [[1,zidx]]
+                if zidx != 0:
+                    chklst.append([2,zidx-1])
+                if zidx != 3:
+                    chklst.append([2,zidx+1])
+                chk = [gmap[l[0]][l[1]] for l in chklst]
+                if not all(x in chk for x in [2,4]):
+                    tot -= 6000
 
         return numzeros+tot
 
