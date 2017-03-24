@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LinearRegression", "LinearR
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Classification", "Classification\Classification.pyproj", "{1B3E7BB4-ECAF-4473-BACE-00B3437FB703}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Sudoku", "Sudoku\Sudoku.pyproj", "{CA7252AE-3C0D-48F5-ABA4-9547C88F01F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,8 @@ Global
 		{8DDA7F85-96AD-486A-A76B-A50DCD655A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B3E7BB4-ECAF-4473-BACE-00B3437FB703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1B3E7BB4-ECAF-4473-BACE-00B3437FB703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7252AE-3C0D-48F5-ABA4-9547C88F01F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7252AE-3C0D-48F5-ABA4-9547C88F01F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

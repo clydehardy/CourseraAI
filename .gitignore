@@ -240,3 +240,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Sudoku/sudoku_output.txt
+/Sudoku/sudokus_start.txt
+/Sudoku/output.txt
