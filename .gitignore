@@ -243,3 +243,11 @@ ModelManifest.xml
 /Sudoku/sudoku_output.txt
 /Sudoku/sudokus_start.txt
 /Sudoku/output.txt
+/NLP/aclImdb
+/NLP/unigramtfidf.output.txt
+/NLP/unigram.output.txt
+/NLP/unigram.ouput.sample.txt
+/NLP/imdb_tr.csv
+/NLP/imdb_te.csv
+/NLP/bigramtfidf.output.txt
+/NLP/bigram.output.txt

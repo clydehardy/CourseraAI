@@ -15,6 +15,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Classification", "Classific
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Sudoku", "Sudoku\Sudoku.pyproj", "{CA7252AE-3C0D-48F5-ABA4-9547C88F01F8}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NLP", "NLP\NLP.pyproj", "{D213037A-DD25-4329-8B9C-4824BB63470C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{1B3E7BB4-ECAF-4473-BACE-00B3437FB703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA7252AE-3C0D-48F5-ABA4-9547C88F01F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA7252AE-3C0D-48F5-ABA4-9547C88F01F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D213037A-DD25-4329-8B9C-4824BB63470C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D213037A-DD25-4329-8B9C-4824BB63470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
